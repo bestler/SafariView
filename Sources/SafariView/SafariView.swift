@@ -4,7 +4,7 @@ import SwiftUI
 import SafariServices
 
 @available(iOS 15.0, *)
-struct SFSafariView: UIViewControllerRepresentable {
+struct SafariView: UIViewControllerRepresentable {
 
     let url : URL
     let dismissButtonStyle: DismissButtonStyle
@@ -68,6 +68,6 @@ struct SFSafariView: UIViewControllerRepresentable {
 @available(iOS 15.0, *)
 struct SafariView_Preview: PreviewProvider {
     static var previews: some View {
-        SFSafariView(url: URL(string: "https://apple.com")!)
+        SafariView(url: URL(string: "https://apple.com")!)
     }
 }
