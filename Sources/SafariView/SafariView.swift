@@ -59,7 +59,7 @@ public struct SafariView: UIViewControllerRepresentable {
         return
     }
 
-    enum DismissButtonStyle {
+    public enum DismissButtonStyle {
         case cancel, close, done
     }
 
