@@ -4,7 +4,7 @@ import SwiftUI
 import SafariServices
 
 @available(iOS 15.0, *)
-struct SafariView: UIViewControllerRepresentable {
+public struct SafariView: UIViewControllerRepresentable {
 
     let url : URL
     let dismissButtonStyle: DismissButtonStyle
@@ -27,7 +27,7 @@ struct SafariView: UIViewControllerRepresentable {
         self.entersReaderIfAvailable = entersReaderIfAvailable
     }
 
-    func makeUIViewController(context: Context) -> some UIViewController {
+    public func makeUIViewController(context: Context) -> some UIViewController {
 
         let configuration = SFSafariViewController.Configuration()
         configuration.barCollapsingEnabled = isBarCollapsing
@@ -55,7 +55,7 @@ struct SafariView: UIViewControllerRepresentable {
         return viewController
     }
 
-    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+    public func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
         return
     }
 
