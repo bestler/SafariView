@@ -13,7 +13,7 @@ public struct SafariView: UIViewControllerRepresentable {
     let isBarCollapsing: Bool
     let entersReaderIfAvailable: Bool
 
-    init(url: URL,
+    public init(url: URL,
          dismissButtonStyle: DismissButtonStyle = .done,
          preferredBarTintColor : UIColor? = .systemBackground,
          preferredControlTintColor : UIColor? = .tintColor,
