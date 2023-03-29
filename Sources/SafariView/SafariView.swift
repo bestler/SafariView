@@ -3,6 +3,8 @@ import UIKit
 import SwiftUI
 import SafariServices
 
+
+
 @available(iOS 15.0, *)
 public struct SafariView: UIViewControllerRepresentable {
 
@@ -13,6 +15,15 @@ public struct SafariView: UIViewControllerRepresentable {
     let isBarCollapsing: Bool
     let entersReaderIfAvailable: Bool
 
+    /// Displays the passed URL in a Safari View inside your application. Only the URL is mandatory, but you can specify additional parameters (e.g. styling) with the optional parameters.
+    ///
+    /// A view to display web content inside your application. You can put inside a .sheet() or .fullscreen() modifier.
+    /// - Parameters:
+    ///     - dismissButtonStyle: Specifices which type of Button to use to dismiss the screen
+    ///     - preferredBarTintColor: The color to tint the background of the navigation bar and the toolbar (default: .systemBackground)
+    ///     - preferredControlTintColor: The color to tint the control buttons on the navigation bar and the toolbar (default: .tintColor/.accentColor)
+    ///     - isBarCollapsing: If you scroll the title bar (default: false)
+    ///     - entersReaderIfAvailable: A value that specifies whether Safari should enter Reader mode, if it is available (default:
     public init(url: URL,
          dismissButtonStyle: DismissButtonStyle = .done,
          preferredBarTintColor : UIColor? = .systemBackground,
