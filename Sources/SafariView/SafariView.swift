@@ -23,7 +23,7 @@ public struct SafariView: UIViewControllerRepresentable {
     ///     - preferredBarTintColor: The color to tint the background of the navigation bar and the toolbar (default: .systemBackground)
     ///     - preferredControlTintColor: The color to tint the control buttons on the navigation bar and the toolbar (default: .tintColor/.accentColor)
     ///     - isBarCollapsing: If you scroll the title bar (default: false)
-    ///     - entersReaderIfAvailable: A value that specifies whether Safari should enter Reader mode, if it is available (default:
+    ///     - entersReaderIfAvailable: A value that specifies whether Safari should enter Reader mode, if it is available (default: false)
     public init(url: URL,
          dismissButtonStyle: DismissButtonStyle = .done,
          preferredBarTintColor : UIColor? = .systemBackground,
