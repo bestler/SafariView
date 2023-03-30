@@ -1,14 +1,17 @@
 # SafariView
 <p align="center">
+  <a href="https://swiftpackageindex.com/bestler/SafariView" alt="Swift Version Compatibility">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbestler%2FSafariView%2Fbadge%3Ftype%3Dswift-versions" />
+  </a>
+	<a href="https://swiftpackageindex.com/bestler/SafariView" alt="Platform Compatibility">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbestler%2FSafariView%2Fbadge%3Ftype%3Dplatforms" />
+  </a>
   <a href="#" alt="Version">
     <img src="https://img.shields.io/static/v1?label=Version&message=1.0.0&color=brightgreen" />
   </a>
   <a href="#" alt="XCode Version">
     <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=14.2&color=blue&logo=xcode" />
   </a>        
-  <a href="#" alt="Swift Version">
-    <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=5.7&color=orange&logo=swift" />
-  </a>
     <a href="/LICENSE">
         <img src="https://img.shields.io/github/license/stleamist/BetterSafariView?color=blue&labelColor=303840" alt="license">
     </a>
